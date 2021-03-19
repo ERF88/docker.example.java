@@ -1,0 +1,11 @@
+# ignore as pastas .git e .cache
+.git
+.cache
+
+# ignore todos os arquivos *.class em todas as pastas, incluindo build root
+**/*.class
+
+# ignore todos os arquivos markdown (md) ao lado de todos os README*.md que não sejam README-secret.md
+*.md
+!README*.md
+README-secret.md
